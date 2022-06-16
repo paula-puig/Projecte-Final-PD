@@ -12,10 +12,10 @@ Per al funcionament del projecte les connexions a realitzar del display al micro
 Per una banda, tenim el GND del display connectat al GND de la esp32 i el VCC del display al 3V3 de la ESP32. Per altra banda, els cables SCL i SDA que son el de la senyal de rellotge i l'enviament de dades respectivament aniran connectats al GPIO 22 i GPIO 21 del microcontroladors, ja que són els pins que hi corresponen al I2C.
 
 ## **2. Passos previs al codi**
-Primerament per tal de poder passar el vídeo pel display he convertit el vídeo a les mesures corresponents de la pantalla que son 128x64. També he canviat els fps (frames per segon) a 5 fps per tal que resulti més senzill passar tots el frames a bitmaps pel codi i perque el display accepti la imatge.
-![](propietats_video.jpg)   
+Primerament per tal de poder passar el vídeo pel display he convertit el vídeo a les mesures corresponents de la pantalla que son 128x64. També he canviat els fps (frames per segon) a 5 fps per tal que resulti més senzill passar tots el frames a bitmaps pel codi i perque el display accepti la imatge.  
+![](propietats_video.jpg)  
 
-![](propietats_video2.jpg)
+![](propietats_video2.jpg)  
 
 Amb un convertidor online es parteix el vídeo en frames, i es descarrega en una carpeta zip de totes les imatges que componen el vídeo.
 ![](frames.jpg)
