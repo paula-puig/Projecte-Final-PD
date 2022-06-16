@@ -13,7 +13,9 @@ Per una banda, tenim el GND del display connectat al GND de la esp32 i el VCC de
 
 ## **2. Passos previs al codi**
 Primerament per tal de poder passar el vídeo pel display he convertit el vídeo a les mesures corresponents de la pantalla que son 128x64. També he canviat els fps (frames per segon) a 5 fps per tal que resulti més senzill passar tots el frames a bitmaps pel codi i perque el display accepti la imatge.
-![](propietats video.jpg)       ![](propietats video2.jpg)
+![](propietats video.jpg)   
+
+![](propietats video2.jpg)
 
 Amb un convertidor online es parteix el vídeo en frames, i es descarrega en una carpeta zip de totes les imatges que componen el vídeo.
 ![](frames.jpg)
